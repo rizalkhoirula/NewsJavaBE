@@ -1,0 +1,27 @@
+table.admintable {
+	border: 1px solid #AEDEF2;
+	border-collapse: collapse;
+}
+
+td.admintd {	
+	color: #0066cc;
+	background-color: #eef6fe;
+	font-size: 14px;
+	color: #05B;
+	border: 1px solid #AEDEF2;
+	filter: progid : DXImageTransform.Microsoft.gradient ( startColorStr =
+		#AEDEF2, endColorStr = ghostwhite );
+}
+
+td.admincls0 {
+	border: 1px solid #AEDEF2;
+	background: ghostwhite;
+	font-size: 12px;
+	font-family: ÐÂËÎÌå;
+	color: #333;
+}
+
+#title{
+   color:#0066cc;
+   font-size:30px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>NewContent.html</title>	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">    
+    <link rel="stylesheet" href="../css/linkstyle.css" type="text/css" />
+    <script type="text/javascript" src="../js/default.js" charset="gb2312" ></script>
+  </head>  
+<BODY >
+<h3 align="center">&nbsp;</h3>
+<h1 align="center" id="title">新闻标题及新闻内容发布</h1>
+<form name="form1" method="post" action="NewsContent_success.html" >
+  <table width="100%"  cellspacing="1" cellpadding="0"  class="admintable">
+    <tr>
+      <td  height="29" class="admintd">
+        <div align="right">新闻栏目：</div>
+      </td>
+      <td  valign="middle" align="right" height="29"  class="admincls0">
+        <div align="left">
+          <select name="parenttitle">
+		    <option >金融热点</option>
+            <option >体育新闻</option>
+		    <option>房产咨讯</option>
+          </select>
+        </div>
+      </td>     
+    </tr>
+    <tr>
+      <td class="admintd">
+        <div align="right">新闻标题：</div>
+      </td>
+      <td  align="left"  class="admincls0">
+        <div align="left">
+          <input type="text" name="titlename" size="20" value="">
+        </div>
+      </td>     
+    </tr>
+    <tr>
+      <td class="admintd">
+        <div align="right" >新闻内容文件位置： </div>
+      </td>
+      <td align="left" class="admincls0">
+        <input type="file" name="filepath">
+      </td>     
+    </tr>
+    <tr>
+      
+      <td align="center" colspan="2">
+        <div align="center">
+          <input type="submit" name="Submit2" value="确定" onClick ="return checkNewsTitleName();">
+          <input type="reset" name="Reset" value="重置">
+        </div>
+      </td>     
+    </tr>
+  </table>  
+  <p align="center"><font face="隶书" size="4">注意：1)发布前请认真检查输入的内容是否正确;<br/>&nbsp;&nbsp;&nbsp;2)新闻标题最好与新闻稿件标题一致</font><font face="隶书">。</font></p>
+  </form>
+  </body>
+</html>
